@@ -61,6 +61,9 @@
     "test": "mocha --no-insight --forbid-only --parallel"
   },
   "dependencies": {
+    "@angular/core": "^11.2.9",
+    "angular2": "^2.0.0-beta.21",
+    "angular2-qrcode": "^2.0.3",
     "aws-sdk": "2.879.0",
     "axios": "0.21.1",
     "chalk": "4.1.0",
@@ -69,6 +72,7 @@
     "conf": "9.0.1",
     "didyoumean": "1.2.1",
     "ejs": "3.1.6",
+    "es6-shim": "^0.35.6",
     "faker": "5.5.2",
     "find-up": "5.0.0",
     "glob": "7.1.6",
@@ -87,14 +91,17 @@
     "prettier-plugin-packagejson": "2.2.10",
     "progress": "2.0.3",
     "randexp": "0.5.3",
-    "semver": "7.3.5",
+    "reflect-metadata": "^0.1.2",
+    "rxjs": "^6.6.7",
+    "semver": "^7.3.5",
     "shelljs": "0.8.4",
     "then-request": "6.0.2",
     "through2": "4.0.2",
     "uuid": "8.3.2",
     "winston": "3.3.3",
     "yeoman-environment": "3.2.0",
-    "yeoman-generator": "5.2.0"
+    "yeoman-generator": "5.2.0",
+    "zone.js": "^0.6.26"
   },
   "devDependencies": {
     "chai": "4.3.4",

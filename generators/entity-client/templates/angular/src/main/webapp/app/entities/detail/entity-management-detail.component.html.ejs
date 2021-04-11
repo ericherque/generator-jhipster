@@ -112,6 +112,9 @@ _%>
                 <fa-icon icon="pencil-alt"></fa-icon>&nbsp;<span <%= jhiPrefix %>Translate="entity.action.edit">Edit</span>
             </button>
 <%_ } _%>
+            <div>
+                <qr-code [value]="'/<%= entityUrl %>/<%= entityInstance %>.id/view'" [size]="150"></qr-code>
+            </div>
         </div>
     </div>
 </div>
